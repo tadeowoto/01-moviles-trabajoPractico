@@ -31,4 +31,11 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         registerReceiver(modoAvionReciver, new IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED));
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unregisterReceiver(modoAvionReciver);
+
+    }
 }
