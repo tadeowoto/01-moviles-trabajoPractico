@@ -8,3 +8,5 @@
 ## 2. Subir el proyecto a un repositorio público en GitHub.
 
 ## 3. Entregar el enlace al repositorio a través de esta tarea en el aula virtual.
+
+<img width="314" height="626" alt="Screenshot 2025-08-19 at 8 12 08 PM" src="https://github.com/user-attachments/assets/57588868-6fb8-46f0-a472-a6e958e63ae2" />
