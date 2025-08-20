@@ -21,6 +21,7 @@ public class ModoAvionReciver extends BroadcastReceiver {
         if (estaConectado) {
             Intent dialIntent = new Intent(Intent.ACTION_DIAL);
             dialIntent.setData(Uri.parse("tel:" + numeroTelefono));
+            dialIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(dialIntent);
 
         }else{
